@@ -15,6 +15,9 @@ class Products {
             element.classList.remove(this.classNameActive);
             element.innerHTML = this.labelAdd;
         }
+
+        /*міняє число товарів в корзині без перезагрузки пейджі*/
+        headerPage.render(products.length);
      }
 
     render() { 
