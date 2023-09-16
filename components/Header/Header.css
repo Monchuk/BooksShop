@@ -11,3 +11,13 @@
     font-weight: bolt;
     cursor: pointer;
 }
+
+.sign_in_header, .sign_up_header{
+    margin-left: 5px; /*auto*/
+    padding-right: var(--spacing-small);
+    font-weight: bolt;
+    cursor: pointer;  
+}
+.sign_in_header:hover,.sign_up_header:hover{
+    font-weight: bolder;
+}
